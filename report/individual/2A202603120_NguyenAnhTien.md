@@ -6,7 +6,7 @@
 
 - Họ tên: Nguyễn Anh Tiến
 - MSSV: 2A202603120
-- Email: Chưa tìm thấy địa chỉ email trong thư mục bài làm.
+- Email: tiennguyeniotd22@gmail.com.
 - Lớp: K5-L2A
 - Repo bài làm: [K5-L2A-DAY02-NguyenAnhTien-2A202603120-ObjectDetection](https://github.com/tiennguyeniotd22-ops/K5-L2A-DAY02-NguyenAnhTien-2A202603120-ObjectDetection)
 - Colab: [Notebook đã chạy](https://colab.research.google.com/drive/10ExS0mPWyx_5ilpIih_YQAQs-ASKPdoj)
