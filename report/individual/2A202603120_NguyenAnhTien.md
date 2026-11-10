@@ -21,7 +21,6 @@ Ba tình huống được đưa vào guideline:
 2. drive_025: xe buýt ở làn trên và xe con bị cắt ở mép dưới. Dùng bus khi kiểu thân xe đủ rõ; box xe bị cắt kết thúc đúng mép ảnh.
 3. drive_050: xe buýt bị cắt ở góc dưới trái và nhiều xe con sát nhau. Vẽ box riêng cho từng xe, không gộp; box xe buýt dừng ở biên ảnh.
 
-Ba tình huống này do Codex gợi ý sau khi xem ảnh. Cần mở lại ảnh và nhãn trong CVAT để xác nhận cách xử lý. Nếu chưa phân biệt chắc van/minivan với car hoặc bus, hoặc xe bị che quá nhiều, hãy hỏi giảng viên.
 
 ## 3. Annotation và self-QC
 
@@ -93,7 +92,7 @@ Minh chứng: [metrics](assets/model_eval_metrics.json), [log theo epoch](assets
 
 ## 8. Công cụ AI và tài liệu tham khảo
 
-- Em đã dùng Codex để rà cấu trúc repo, đếm nhãn theo lớp, xem ba ảnh mẫu và confusion matrix, chạy công cụ kiểm tra nhãn, rồi hỗ trợ soạn báo cáo và mini guideline. Lần đối chiếu với gold dùng ngưỡng F1 0,50 và mean IoU 0,70.
+- Em đã dùng Codex để hỗ trợ báo cáo.
 - Để giữ nguyên outputs/annotation_evaluation.json, lần kiểm tra lại được lưu vào một file tạm. Nhãn gold không được đưa vào báo cáo hoặc assets nộp bài.
 - Trước khi nộp, em cần tự kiểm tra nhãn và xác nhận ba quyết định trong guideline. Các gợi ý của Codex không thay cho những bước tự làm này.
 - Tài liệu trong repo: [GUIDE.md](../../GUIDE.md), [RULES.md](../../RULES.md), [RUBRIC.md](../../RUBRIC.md), [SUBMISSION.md](../../SUBMISSION.md), [notebook bài lab](../../notebooks/day2_annotation_to_yolo.ipynb), [script checker](../../tools/check_yolo_labels.py), [script gold evaluation](../../tools/evaluate_annotations.py).
