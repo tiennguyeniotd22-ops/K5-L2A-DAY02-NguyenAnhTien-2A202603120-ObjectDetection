@@ -1,6 +1,6 @@
 # Mini guideline — Object Detection Ngày 2
 
-> Bản này được Codex hỗ trợ soạn theo GUIDE.md và ba ảnh train. Người học cần tự mở ảnh cùng nhãn trong CVAT, xác nhận hoặc sửa các quyết định bên dưới trước khi coi đây là guideline cá nhân cuối cùng.
+> Codex đã giúp soạn bản nháp này dựa trên GUIDE.md và ba ảnh train. Trước khi nộp, hãy mở ảnh cùng nhãn trong CVAT để kiểm tra và xác nhận hoặc sửa các quyết định dưới đây.
 
 ## 1. Schema lớp
 
@@ -26,7 +26,7 @@ Giữ nguyên thứ tự class ID trong data.yaml. Không đổi tên lớp ho�
 
 ## 3. Ba tình huống cần áp dụng nhất quán
 
-| Ảnh | Tình huống | Quyết định/gợi ý cần người học xác nhận | Lý do |
+| Ảnh | Tình huống | Cách xử lý đề xuất | Lý do |
 |---|---|---|---|
 | drive_010.jpg | Cảnh ban đêm; có xe nhỏ hoặc tối ở xa. | Chỉ gán xe và class khi còn đủ đặc điểm nhận diện. Nếu không chắc, ghi case ID và hỏi, không đoán. | Ảnh tối và đối tượng nhỏ làm ranh giới giữa xe thật với bóng/nhiễu khó thấy. |
 | drive_025.jpg | Xe buýt ở làn phía trên; một xe con bị cắt ở mép dưới ảnh. | Nếu kiểu xe buýt rõ thì gán bus; box xe con chỉ bao phần nhìn thấy và dừng tại mép ảnh. | Áp dụng class theo hình dáng xe và quy tắc vật thể bị cắt khung. |
@@ -40,4 +40,4 @@ Giữ nguyên thứ tự class ID trong data.yaml. Không đổi tên lớp ho�
 
 ## 5. Xác nhận trước khi nộp
 
-Tự mở lại ba ảnh trên cùng box/nhãn trong CVAT; sửa guideline nếu quyết định không khớp với quy ước đã thống nhất trên lớp. Ghi riêng danh sách tối thiểu 10 ảnh đã tự rà để làm bằng chứng self-QC. Các gợi ý AI trong tài liệu này không thay cho bước đó.
+Trước khi nộp, hãy mở lại ba ảnh và đối chiếu box, nhãn trong CVAT. Nếu cách xử lý chưa khớp với quy ước của lớp, hãy sửa guideline. Đồng thời, ghi lại ít nhất 10 ảnh đã tự kiểm tra. Gợi ý của Codex không thay cho bước tự rà này.
