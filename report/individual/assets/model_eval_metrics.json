@@ -1,0 +1,8 @@
+{
+  "precision": 0.6592762592052259,
+  "recall": 0.32769933933725426,
+  "map50": 0.3701829789875106,
+  "map50_95": 0.270050892875053,
+  "eval_images": 10,
+  "checkpoint": "/content/Day2-Lab/outputs/yolo26_runs/vehicle_annotation/weights/best.pt"
+}
